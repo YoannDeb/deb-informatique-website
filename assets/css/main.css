@@ -148,7 +148,7 @@ input, select, textarea {
 				position: relative;
 				top: 0.05em;
 				margin-right: 0.5em;
-				opacity: 0.25;
+				opacity: 0.5;
 			}
 
 	h3 {
@@ -1650,9 +1650,8 @@ input, select, textarea {
 					font-size: 48px;
 					position: absolute;
 					right: 100%;
-					margin-right: 18px;
-					opacity: 0.5;
-					bottom: -4px;
+					margin-right: 7px;
+					opacity: 0.8;
 				}
 
 	.box.feature2 {
