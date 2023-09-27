@@ -1733,9 +1733,16 @@ input, select, textarea {
 			#nav > ul > li.current_page_item > a,
 			#nav > ul > li.active > span,
 			#nav > ul > li.current_page_item > span {
-				background: rgba(0, 0, 0, 0.15);
+				background: rgba(0, 0, 0, 0.35);
 				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
 			}
+
+            /* hover of menu entries */
+            #nav > ul > li:hover > a,
+			#nav > ul > li:hover > span {
+			    background: rgba(0, 0, 0, 0.35);
+				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
+		}
 
 			#nav > ul > li:last-child {
 				padding-right: 0;
