@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	ZeroFour by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Deb informatique</title>
@@ -25,13 +21,25 @@
 									<!-- Logo -->
 										<h1><a href="index.html" id="logo">Deb informatique</a></h1>
 
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
 
-<!--
+												<!--
 												<li class="current_page_item"><a href="index.html">Accueil</a></li>
 												<li><a href="maintenance.html">Maintenance</a></li>
 												<li><a href="developpement.html">Développement</a></li>
 												<li><a href="assistant-numerique.html">Assistant numérique</a></li>
--->
+												-->
+
+												<!-- temporary menu (one page) -->
+												<li class="current_page_item"><a href="#">Accueil</a></li>
+												<li><a href="#activities">Maintenance</a></li>
+												<li><a href="#activities">Développement</a></li>
+												<li><a href="#activities">Assistant numérique</a></li>
+
+											</ul>
+										</nav>
 
 								</div>
 							</header>
@@ -52,11 +60,12 @@
 						<div class="inner">
 
 <!-- Feature 1 -->
-                                                                            <section class="container box feature1">                                                          <div class="row">
+                                                                         <section id="activities" class="container box feature1">
+                                                         		  <div class="row">
 
 										<div class="col-4 col-12-medium">
 											<section>
-												<a href="#" class="image featured"><img src="images/hardware.jpg" alt="" /></a>
+												<a href="#activities" class="image featured"><img src="images/hardware.jpg" alt="" /></a>
 												<header class="second icon solid fa-toolbox">
 													<h3>Maintenance informatique</h3>
 													<p>Dépannage, récupération de données,</p>
@@ -67,7 +76,7 @@
 										</div>
 										<div class="col-4 col-12-medium">
 											<section>
-												<a href="#" class="image featured"><img src="images/code.jpg" alt="" /></a>
+												<a href="#activities" class="image featured"><img src="images/code.jpg" alt="" /></a>
 												<header class="second icon solid fa-code">
 													<h3>Développement informatique</h3>
 													<p>Sites web, Python, Django...</p>
@@ -76,14 +85,14 @@
 										</div>
 										<div class="col-4 col-12-medium">
 											<section>
-												<a href="#" class="image featured"><img src="images/photo.jpg" alt="" /></a>
+												<a href="#activities" class="image featured"><img src="images/photo.jpg" alt="" /></a>
 												<header class="second icon solid fa-camera">
 													<h3>Assistant numérique photo</h3>
 													<p>Capture one...</p>
 												</header>
 											</section>
 										</div>
-										
+
 </div>
 </section>
 
@@ -92,7 +101,7 @@
 						</div>
 					</div>
 				</div>
-	
+
 
 			<!-- Footer Wrapper -->
 				<div id="footer-wrapper">
@@ -114,9 +123,8 @@
 												</div>
 												<div class="col-6 col-12-small">
 													<dl class="contact">
-
 														<dt>Mobile</dt>
-														<dd>06 02 56 68 68</dd>
+														<dd><a href="tel:+33602566868">06 02 56 68 68</a></dd>
 													</dl>
 												</div>
 											</div>
