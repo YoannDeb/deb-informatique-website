@@ -2063,7 +2063,7 @@ input, select, textarea {
 		display: none;
 	}
 
-    /* Title bar menu transform below this size */
+    /* Title bar (burger menu) transform below this size */
 	@media screen and (max-width: 1100px) {
 
 		/* Basic */
