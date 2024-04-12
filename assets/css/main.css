@@ -51,6 +51,17 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin: auto;
+	text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+th {
+    font-weight: bold;
 }
 
 body {
@@ -1343,6 +1354,7 @@ input, select, textarea {
 
 	table {
 		width: 100%;
+		border-collapse: collapse;
 	}
 
 		table.default {
