@@ -1,4 +1,4 @@
-const apiUrl = 'http://127.0.0.1:8000/api/message/';
+const apiUrl = 'https://api.debinformatique.fr/api/message/';
 
 const contactForm = document.getElementById('contact-form');
 const responseMessage = document.getElementById('response-message');
